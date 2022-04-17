@@ -1,6 +1,6 @@
 import numpy as np # np gives us the sine fn and math methods
 from scipy.optimize import curve_fit # method for optimizing params for best fit (recursion)
-import pylab as plt # for plotting data
+import pylab as plt # for plotting data - note need to install matplotlib package to resolve this import!
 
 # Credit: https://stackoverflow.com/questions/16716302/how-do-i-fit-a-sine-curve-to-my-data-with-pylab-and-numpy, Vasco
 # y = A*sin(Bx+C)+D - figure out A,B,C,D such that we have best fitting sine fn to our data points
